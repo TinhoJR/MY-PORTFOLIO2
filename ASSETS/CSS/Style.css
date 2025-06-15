@@ -1,0 +1,323 @@
+.marquee {
+  width: 100%;
+  max-width: 100%;
+  background:rgba(255, 255, 255, 0.6); ;
+  color: #333;
+  padding: 10px;
+  font-size: 18px;
+  overflow: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  
+}
+
+.marquee div{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+
+    
+}
+
+.marquee img{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+   
+    
+}
+
+.wrapper{
+    padding: 0px 0px;
+    
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif !important;
+  
+}
+
+
+#mobile-nav{
+     display: none; 
+}
+
+/*  */
+
+nav{
+   
+}
+
+.nav-item{
+    padding: 5px 10px;
+    list-style-type: none;
+    border-radius: 7px;
+   
+}
+
+.nav-item:hover,
+.navbar-brand:hover{
+    background-color: whitesmoke;
+}
+
+.navbar-brand i{
+    font-size: 25px;
+}
+
+.navbar-brand{
+    padding: 5px 9px;
+    border-radius: 7px;
+    font-size:25px ;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.nav-link i{
+    font-size: 27px;
+    color: black;
+}
+
+#desktop-nav{
+    width: 50%;
+    background-color: white;
+     padding: 7px 30px !important;
+     border-radius: 15px;
+     border: 1px solid #ccc;
+   background: rgba(255, 255, 255, 0.6);
+}
+
+.bookMe{
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 7px;
+}
+
+/*  */
+
+/*  */
+
+.hero-section{
+    padding: 180px 160px 90px 160px;
+   
+}
+
+.hero-content h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.hero-content{
+    padding: 0px 50px;
+}
+
+.hero-content p{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.resume-wrapper{
+    display: flex;
+    column-gap: 20px;
+}
+
+.resume-wrapper button,
+.resume-wrapper div{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.resume-wrapper div{
+    width: 270px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: #ccc;
+    color: green;
+}
+
+/*  */
+
+/*  */
+
+.about-section{
+    padding: 50px 170px;
+   text-align: center;
+   align-content: center;
+}
+
+.about-section div p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.about-section div h3{
+    padding: 15px 0px;
+}
+
+/*  */
+
+/*  */
+
+.stack-section{
+    padding: 30px 170px;
+   display: flex;
+   column-gap: 30px;
+   justify-content: space-between;
+}
+
+.stack-section div{
+     width: 100px;
+     height: 100px;
+     animation: bounceUp 1s ease-in-out infinite;
+    
+}
+
+
+
+.stack-section img{
+   width: 100%;
+   height: fit-content;
+    
+}
+
+
+/*  */
+
+@keyframes bounceUp {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(0.85);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media screen and (max-width : 778px) {
+
+    #desktop-nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display: inherit;
+         background-color: white;
+         padding: 15px 30px !important;       
+         border: 2px solid #f7f7f7;
+          background: rgba(255, 255, 255, 0.6);
+    }
+
+    .nav-link i{
+    padding-right: 15px;
+   
+    }
+
+    .navbar-nav{
+        padding-top: 25px;
+    }
+
+    .nav-item .nav-link{
+         color: black !important;
+         font-size: 19px;
+    }
+
+    /* .hero-section */
+
+    .hero-section{
+        padding: 80px 20px 50px 20px;
+    }
+
+    .hero-content{
+        padding: 40px 0px 10px 0px;
+    }
+
+    .hero-content h3{
+        font-size: 23px;
+        letter-spacing: 1px;
+        font-weight: 600;
+       
+    }
+
+    .hero-content p{
+        font-size: 16px;
+       
+    }
+
+    .resume-wrapper{
+        display: block;
+        row-gap: 20px;
+    }
+
+    .resume-wrapper button,
+    .resume-wrapper div{
+        height: 45px;
+        margin-bottom: 15px;
+    }
+
+    .marquee img{
+        max-height: 200px;
+    }
+
+    /*  */
+    
+    .about-section{
+        padding: 40px 20px;
+    }
+
+    /*  */
+
+    .stack-section{
+        padding: 40px 0px 40px 40px;
+        columns: 2;
+        display: inline-block;
+        column-gap: 60px;
+        justify-content: space-between;
+        width: 100%;
+        
+        
+    }
+
+    .stack-section div{ 
+        margin-bottom: 30px;
+       
+    }
+
+    .stack-section div:hover{
+       
+    }
+
+
+
+}

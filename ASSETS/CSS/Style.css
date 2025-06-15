@@ -15,14 +15,12 @@
     display: inline-block;
     padding: 10px 20px;
     background-color: transparent;
-
     
 }
 
 .marquee img{
     width: 100%;
-    max-height: 350px;
-    object-fit: cover;
+    height: 350px;
     border-radius: 10px;
     border: 1px solid #ccc;
    
@@ -195,8 +193,6 @@ nav{
     
 }
 
-
-
 .stack-section img{
    width: 100%;
    height: fit-content;
@@ -311,6 +307,8 @@ nav{
 
     .stack-section div{ 
         margin-bottom: 30px;
+        width: 130px;
+        height: 130px;
        
     }
 

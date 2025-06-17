@@ -19,12 +19,12 @@
 }
 
 .marquee img{
-    width: 100%;
+    width: auto;
     height: 350px;               /* Same height for all */
     object-fit: cover;           /* Keeps aspect ratio, fills box, crops if needed */
     border-radius: 10px;
     border: 1px solid #ccc;
-    display: block;
+    display: inline-block;
    
     
 }

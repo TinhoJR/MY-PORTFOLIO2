@@ -9,8 +9,11 @@
 .marquee-track{
      display: inline-flex;
      gap: 20px;
-     animation: scroll-left 15s linear infinite;
      width: max-content;
+}
+
+.animate-marquee{
+    animation: scroll-left 15s linear infinite;
 }
 
 .marquee-track img{

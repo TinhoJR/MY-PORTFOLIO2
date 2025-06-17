@@ -218,7 +218,7 @@ nav{
 }
 
 .stack-content{
-    padding: 1px 0px;
+    padding: 10px 20px;
    display: flex;
    column-gap: 30px;
    justify-content: space-between;
@@ -257,6 +257,9 @@ nav{
     display: flex;
     border-radius: 7px;
     margin-bottom: 30px;
+    width: 100%;
+    max-width: 100%;
+    align-content: center;
 }
 
 .expertise-content{
@@ -426,11 +429,10 @@ p{
     /*  */
 
     .stack-section{
-        padding: 40px 0px 20px 40px;
+        padding: 40px 20px 20px 20px;
     }
 
-    .stack-content{
-       
+    .stack-content{ 
         columns: 2;
         display: inline-block;
         column-gap: 60px;
@@ -452,7 +454,8 @@ p{
     .expertise-section{
         display: block;
         border: none;
-        padding-right: 15px;
+       
+       
     }
 
     .expertise-content{

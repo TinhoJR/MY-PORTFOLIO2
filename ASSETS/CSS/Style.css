@@ -10,6 +10,7 @@
      display: inline-flex;
      gap: 20px;
      animation: scroll-left 15s linear infinite;
+     width: max-content;
 }
 
 .marquee-track img{

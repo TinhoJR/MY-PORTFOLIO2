@@ -178,6 +178,17 @@ nav{
     height: auto;
 }
 
+#name-intro{
+  will-change: contents;
+ 
+}
+
+.name-intro-wrapper {
+  height: 40px; /* adjust based on your font-size */
+  overflow: hidden;
+}
+
+
 /*  */
 
 /*  */

@@ -6,7 +6,7 @@ $(document).ready(function() {
     delayBeforeStart: 0,
     direction: 'left',       // can also do 'up' for vertical
     duplicated: true,        // loops back seamlessly
-    pauseOnHover: true       // slows down or pauses on hover
+    pauseOnHover: false      // slows down or pauses on hover
   });
 
 

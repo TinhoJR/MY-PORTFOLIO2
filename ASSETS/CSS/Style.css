@@ -394,7 +394,7 @@ p{
     /*  */
 
     .stack-section{
-        padding: 40px 0px 40px 40px;
+        padding: 40px 0px 20px 40px;
         columns: 2;
         display: inline-block;
         column-gap: 60px;

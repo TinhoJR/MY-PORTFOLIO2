@@ -1,6 +1,7 @@
 
-$('.marquee').marquee({
-    duration: 10000,         // how fast it scrolls (ms)
+$(document).ready(function() {
+  $('.marquee').marquee({
+    duration: 9000,         // how fast it scrolls (ms)
     gap: 50,                 // space between loops
     delayBeforeStart: 0,
     direction: 'left',       // can also do 'up' for vertical
@@ -16,3 +17,4 @@ $('.marquee').marquee({
       backSpeed: 25,
       showCursor: false
     });
+})

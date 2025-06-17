@@ -404,8 +404,13 @@ p{
         
     }
 
+    .content-title{
+        font-size: 19px;
+        padding: 15px 0px;
+    }
+
     .stack-section div{ 
-        margin-bottom: 30px;
+        margin-bottom: 20px;
        
        
     }

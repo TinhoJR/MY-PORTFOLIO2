@@ -211,16 +211,20 @@ nav{
 
 /*  */
 
-/*  */
+/* stack-section */
 
 .stack-section{
-    padding: 30px 170px;
+    padding: 30px 180px;
+}
+
+.stack-content{
+    padding: 1px 0px;
    display: flex;
    column-gap: 30px;
    justify-content: space-between;
 }
 
-.stack-section div{
+.stack-content div{
      width: 100px;
      max-width: 110px;
      height: auto;
@@ -235,17 +239,45 @@ nav{
     padding: 20px 0px;
 }
 
-.stack-section div p{
+.stack-content div p{
     padding-top: 10px;
     text-align: center;
 }
 
-.stack-section img{
+.stack-content img{
    width: 100%;
    height: fit-content;
     
 }
 
+
+
+.expertise-section{
+    border: 1px solid #ccc;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.expertise-content{
+    padding: 20px 20px;
+    border-right: 1px solid #ccc;
+}
+
+.expertise-content p{
+    padding: 15px 0px 5px 20px;
+}
+
+.expertise-title{
+    display: flex;
+    column-gap: 20px;
+}
+
+.expertise-title div img{
+    width: 40px;
+    height: 40px;
+   
+}
 
 /*  */
 
@@ -395,13 +427,16 @@ p{
 
     .stack-section{
         padding: 40px 0px 20px 40px;
+    }
+
+    .stack-content{
+       
         columns: 2;
         display: inline-block;
         column-gap: 60px;
         justify-content: space-between;
         width: 100%;
-        
-        
+       
     }
 
     .content-title{
@@ -409,10 +444,22 @@ p{
         padding: 15px 0px;
     }
 
-    .stack-section div{ 
-        margin-bottom: 20px;
+    .stack-content div{ 
+        margin-bottom: 20px;   
        
-       
+    }
+
+    .expertise-section{
+        display: block;
+        border: none;
+        padding-right: 15px;
+    }
+
+    .expertise-content{
+        border-right: none;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+        border-radius: 7px;
     }
 
     /* .project-section */
@@ -425,5 +472,9 @@ p{
         padding-top: 0px;
     }
 
+    .project-image {
+    padding: 10px 10px;
+    
+ }
 
 }

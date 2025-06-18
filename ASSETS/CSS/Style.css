@@ -362,6 +362,7 @@ p{
     border: none;
     background-color: #ccc;
     margin-right: 15px;
+    color: black;
 }
 
 .project-info a:hover{
@@ -472,6 +473,25 @@ p{
 
 .project-intro a i{
     padding-left: 5px;
+}
+
+.phn-view{
+    padding: 50px 50px;
+}
+
+.stacks-name{
+    padding: 20px 0px;
+}
+
+.stacks-name button{
+    width: 120px;
+    height: fit-content;
+    border-radius: 0px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-right: 1px solid #ccc;
 }
 
 /* PROJECT DETAIL PAGE */
@@ -627,4 +647,12 @@ p{
         padding: 20px 0px;
     }
 
+}
+
+
+@media screen and (max-width : 480px) {
+
+    .phn-view{
+    padding: 40px 40px;
+}
 }

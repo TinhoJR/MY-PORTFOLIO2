@@ -57,9 +57,6 @@ html, body {
 
 /*  */
 
-nav{
-   
-}
 
 .navbar-toggler{
     border: none !important;
@@ -74,7 +71,7 @@ nav{
 
 .nav-item:hover,
 .navbar-brand:hover{
-    background-color: whitesmoke;
+    background-color: #ccc;
 }
 
 .navbar-brand i{
@@ -105,7 +102,7 @@ nav{
      padding: 7px 30px !important;
      border-radius: 15px;
      border: 1px solid #ccc;
-   background: rgba(255, 255, 255, 0.6);
+   background: rgba(255, 255, 255, 0.8);
 }
 
 .bookMe{
@@ -320,7 +317,7 @@ p{
  }
 
  .project-wrapper{
-    padding: 15px 15px;
+    padding: 20px 15px;
     border: 1px solid #f7f1f1;
     border-radius: 15px;
     margin-bottom: 40px;
@@ -353,10 +350,30 @@ p{
     border-radius: 10px;   
     transition: all 0.5s ;
     font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.project-info button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: #ccc;
+    margin-right: 15px;
 }
 
 .project-info a:hover{
     background-color: #dfdede;
+}
+
+.project-info ul{
+    padding: 0px 15px;
+}
+
+.project-info ul li{
+    padding-top: 10px;
 }
 
 /*  */
@@ -428,6 +445,37 @@ p{
     font-size: 21px;
 }
 
+/* PROJECT DETAIL PAGE */
+
+.projectDetail{
+    padding: 80px 180px;
+}
+
+.project-intro{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-intro h4{
+    font-size: 19px;
+}
+
+.project-intro a{
+    padding: 10px 15px;
+    border:1px solid #ccc;
+    font-weight: 500;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+.project-intro a i{
+    padding-left: 5px;
+}
+
+/* PROJECT DETAIL PAGE */
+
 @media screen and (max-width : 778px) {
 
     #desktop-nav{
@@ -439,7 +487,7 @@ p{
          background-color: white;
          padding: 15px 30px !important;       
          border: 2px solid #f7f7f7;
-          background: rgba(255, 255, 255, 0.6);
+          background: rgba(255, 255, 255, 0.8);
     }
 
     .nav-link i{
@@ -565,5 +613,18 @@ p{
         padding: 20px 0px;
     }
 
+    /*  */
+
+    .projectDetail{
+        padding: 50px 20px;
+    }
+
+    .project-intro{
+        display: block;
+    }
+
+    .project-intro h4{
+        padding: 20px 0px;
+    }
 
 }

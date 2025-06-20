@@ -1,5 +1,11 @@
 
 $(document).ready(function() {
+
+  AOS.init({
+      offset: 90,
+      duration: 1500,
+      once: false
+    });
  
   const marqueeTrack = $(".marquee-track");
   const images = marqueeTrack.find("img")
@@ -36,4 +42,6 @@ $(document).ready(function() {
       smartBackspace: true, 
       showCursor: false
     });
+
+   
 })

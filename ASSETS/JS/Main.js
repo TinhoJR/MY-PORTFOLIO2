@@ -2,9 +2,9 @@
 $(document).ready(function() {
 
   AOS.init({
-      offset: 90,
+      offset: 100,
       duration: 1500,
-      once: false
+      once: true
     });
  
   const marqueeTrack = $(".marquee-track");

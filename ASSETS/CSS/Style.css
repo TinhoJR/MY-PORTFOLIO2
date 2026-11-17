@@ -355,6 +355,12 @@ p{
     text-decoration: none;
 }
 
+.link-nav{
+    background-color: #ccc !important;
+    text-decoration: none !important;
+    padding: 0 !important;
+}
+
 .project-info button{
     width: 50px;
     height: 50px;
